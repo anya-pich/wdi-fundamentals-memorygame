@@ -67,21 +67,52 @@ img {
 
 footer {
 	text-transform: uppercase;
-	padding: 0 20px;
+	/*padding: 0 20px;*/
 	background-color: #0D2C40;
 	color: white;
 	font-size: 14px;
 	letter-spacing: 0.08em;
 	font-weight: 500;
 	font-family: Raleway, sans-serif;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+button {
+	font-family: Raleway, sans-serif;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 18px;
+	margin-top: 50px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	border-bottom: 2px solid transparent;
+	background-color: hsl(13, 87%, 57%);
+	border: none;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+button:hover {
+	background-color: hsl(13, 95%, 65%);
+}
+
+button:active {
+	background-color: hsl(13, 80%, 50%);
 }
 
 .copyright {
 	float: left;
+	margin-left: 20px;
 }
 
 .message {
 	float: right;
+	margin-right: 20px;
 }
 
 .clearfix:after {
